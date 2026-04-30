@@ -1,0 +1,30 @@
+{
+  "name": "Susblocker",
+  "version": "1.0",
+  "description": "Susblocker to block annoying ads",
+  "manifest_version": 3,
+
+  "permissions": [ "declarativeNetRequest" ],
+  "host_permissions": [ "<all_urls>" ],
+
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "rules_1",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
+  },
+  //Icons
+  "icons": {
+    "16": "among16x16x.png",
+    "48": "among48x48x.png",
+    "128": "among128x128x.png"
+  }
+}
