@@ -4,13 +4,21 @@
   "description": "Susblocker to block annoying ads",
   "manifest_version": 3,
 
-  "permissions": [ "declarativeNetRequest" ],
-  "host_permissions": [ "<all_urls>" ],
+  "permissions": ["declarativeNetRequest"],
+  "host_permissions": ["<all_urls>"],
 
   "background": {
     "service_worker": "background.js",
     "type": "module"
   },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["youtubeBlocking.js"],
+      "run_at": "document_idle"
+    }
+  ],
 
   "declarative_net_request": {
     "rule_resources": [
@@ -21,6 +29,7 @@
       }
     ]
   },
+
   "icons": {
     "16": "among16x16x.png",
     "48": "among48x48x.png",
