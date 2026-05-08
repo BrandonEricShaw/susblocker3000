@@ -1,7 +1,7 @@
 #Susblocker3000
 #It is a lightweight Chrome Manifest V3 ad blocker. Focuses were on simplicity, speed, and chrome
 
-#Blocks:
+#    Blocks:
 #  Ads
 #  Trackers
 #  Analyitcs Scripts
