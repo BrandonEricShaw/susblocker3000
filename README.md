@@ -1,19 +1,19 @@
-Susblocker3000 \
-It is a lightweight Chrome Manifest V3 ad blocker. Focuses were on simplicity, speed, and chrome \
+##  Susblocker3000 \
+It is a lightweight Chrome Manifest V3 ad blocker. Focuses were on simplicity, speed, and chrome
 
-#  Blocks:
+###  Blocks:
 Ads \
 Trackers \
 Analyitcs Scripts \
 YouTube ads, overlays, & skips
 
-#  Built Using:
+###  Built Using:
 Manifest V3 \
 declarativeNetRequest \
 Content Script Filtering \
 Dynamic ruleset toggling 
 
-#  Features
+###  Features
 Quick Manifest V3 Ad blocking \
 YouTube Ad Skipping \
 Tracker Blocking \
@@ -21,7 +21,7 @@ Integrated Popup Togglable UI \
 Lightweight Background Service Worker \
 Chrome Compatible
 
-#  Tech Stack
+###  Tech Stack
 Javascript \
 Chrome Extensions API \
 Manifest V3 \
