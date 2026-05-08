@@ -4,12 +4,20 @@
   "description": "Susblocker to block annoying ads",
   "manifest_version": 3,
 
-  "permissions": ["declarativeNetRequest"],
   "host_permissions": ["<all_urls>"],
+
+  "permissions": [
+    "declarativeNetRequest",
+    "storage"
+  ],
 
   "background": {
     "service_worker": "background.js",
     "type": "module"
+  },
+
+  "action": {
+    "default_popup": "toggleWindow.html"
   },
 
   "content_scripts": [
@@ -23,7 +31,7 @@
   "declarative_net_request": {
     "rule_resources": [
       {
-        "id": "rules_1",
+        "id": "rules",
         "enabled": true,
         "path": "rules.json"
       }
