@@ -2,10 +2,10 @@
 It is a lightweight Chrome Manifest V3 ad blocker. Focuses were on simplicity, speed, and chrome
 
 ###  Blocks:
-Ads \
-Trackers \
-Analyitcs Scripts \
-YouTube ads, overlays, & skips
+* Ads \
+* Trackers \
+* Analyitcs Scripts \
+* YouTube ads, overlays, & skips
 
 ###  Built Using:
 Manifest V3 \
