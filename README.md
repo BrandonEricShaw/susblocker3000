@@ -8,10 +8,10 @@
 #YouTube ads, overlays, & skips
 
 #  Built Using:
-#Manifest V3
-#declarativeNetRequest
-#Content Script Filtering
-#Dynamic ruleset toggling
+Manifest V3 \
+declarativeNetRequest \
+Content Script Filtering \
+Dynamic ruleset toggling \
 
 #  Features
 #Quick Manifest V3 Ad blocking
